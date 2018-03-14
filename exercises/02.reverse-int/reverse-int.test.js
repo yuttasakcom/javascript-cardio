@@ -1,19 +1,19 @@
 /* global test expect */
 
-const reverse = require('./reverse-int')
+const reverseInt = require('./reverse-int')
 
 test('Reverse function exists', () => {
-  expect(reverse).toBeDefined()
+  expect(reverseInt).toBeDefined()
 })
 
 test('Reverse reverses a string', () => {
-  expect(reverse(1234)).toEqual(4321)
+  expect(reverseInt(1234)).toEqual(4321)
 })
 
 test('Reverse reverses a string', () => {
-  expect(reverse(-1234)).toEqual(-4321)
+  expect(reverseInt(-1234)).toEqual(-4321)
 })
 
 test('Reverse reverses a string', () => {
-  expect(reverse(1423)).toEqual(3241)
+  expect(reverseInt(1423)).toEqual(3241)
 })
