@@ -3,9 +3,10 @@
 ## Required
 
 * Jest
-  ```bash
-  $ sudo npm i -g jest
-  ```
+
+```bash
+$ sudo npm i -g jest
+```
 
 ## Start
 
