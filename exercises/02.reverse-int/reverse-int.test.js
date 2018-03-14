@@ -2,8 +2,8 @@
 
 const reverseInt = require('./reverse-int')
 
-test('Reverse function exists', () => {
-  expect(reverseInt).toBeDefined()
+test('Reverse function is defined', () => {
+  expect(typeof reverseInt).toEqual('function')
 })
 
 test('Reverse reverses a string', () => {
