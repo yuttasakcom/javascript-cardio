@@ -1,7 +1,7 @@
 /* global test expect */
 const palindrome = require('./palindrome')
 
-test('Palindrome function is defined', () => {
+test('palindrome function exists', () => {
   expect(typeof palindrome).toEqual('function')
 })
 

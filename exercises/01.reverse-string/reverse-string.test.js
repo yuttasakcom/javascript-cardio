@@ -2,7 +2,7 @@
 
 const reverse = require('./reverse-string')
 
-test('Reverse function is defined', () => {
+test('reverse function exists', () => {
   expect(typeof reverse).toEqual('function')
 })
 
